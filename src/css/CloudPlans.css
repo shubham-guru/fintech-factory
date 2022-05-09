@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+.cloudPlansBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+}
+.cloudPlansBox div{
+    margin: 6% auto;
+    padding: 5%;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cloudPlansBox div img{
+    width: 120px;
+    height: 120px;
+    animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+    0%{
+      transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(10deg);
+    }
+  }
+.cloudPlansBox div label{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 10%;
+    font-size: 1.5em;
+    width: 100%;
+}
+.cloudPlansBox div input{
+    margin: 2%;
+    width: 100%;
+}
+.plansCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.33%;
+    overflow-x: hidden;
+    background-color: #000;
+    margin: 1.5%;
+    padding: 2%;
+    border-radius: 10px;
+}
+.plansCard:nth-child(1){
+    filter: drop-shadow(10px 10px 20px #1452ee);
+}
+.plansCard:nth-child(2){
+    filter: drop-shadow(10px 10px 20px #f34119);
+}
+.plansCard:nth-child(3){
+    filter: drop-shadow(10px 10px 20px #fb9c0e);
+}
+.plansCard:hover{
+    transition: 0.5s;
+    box-shadow: 5px 5px 20px #222;
+    cursor: pointer;
+}
+.plansCard h1{
+    font-family: 'Dancing Script', cursive;
+    margin-top: -8%;
+    color: #fff;
+}
+.plansCard h2, p{
+    width: 100%;
+    text-align: center;
+    padding: 1%;
+    color: #fff;
+    font-family: 'Mulish', sans-serif;
+}
+.tableData tr td{
+    color: #fff;
+}
+.tableData tr td{
+    padding-top: 10%;
+}
+.td p{
+    text-align: right;
+}
+.td h2{
+    text-align: right;
+}
+.plansCard img{
+    width: 390px;
+    height: 240px;
+}
+.planetBox{
+    display: flex;
+    justify-content: space-evenly;
+}
+#earn{
+    font-size: 2em;
+    font-family: 'Fjalla One', sans-serif;
+}
+#cost{
+    font-weight: bold;
+    font-size: 1.2em;
+}

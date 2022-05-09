@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+.productBox{
+    width: 100%;
+}
+.productInnerDiv{
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px #ddd;
+    padding: 5%;
+    border-radius: 20px;
+    width: 100%;
+}
+.productInnerDiv:hover{
+    transition: 0.5s;
+    box-shadow: 10px 10px 10px #ddd;
+}
+.productImg{
+    cursor: pointer;
+    margin: 1%;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 50px;
+    border-radius: 10px; 
+}
+#note::after{
+    content: '*(as per market conditions)';
+    font-size: 0.6em;
+    position: absolute;
+    
+}
+.iconDiv img{
+    width: 40px;
+    height: 40px;
+}
+.iconDiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.iconDiv h3, span{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: auto;
+}
+.iconDiv span{
+    font-size: 0.8em;
+}

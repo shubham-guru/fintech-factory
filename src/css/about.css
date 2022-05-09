@@ -1,0 +1,47 @@
+.secondSection{
+    display: flex;
+    flex-direction: row;
+}
+.secondSection img{
+    width: 100%;
+    height: 600px;
+}
+.blueBox{
+    background-color: #5d2122;
+    color: #fff;
+    padding: 1%;
+}
+.blueBox p{
+    padding: 3%;
+    text-align: left;
+    font-size: 15px;
+    width: 90%;
+    line-height: 30px;
+}
+.title2{
+    padding: 3% 3% 0.6% 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.hr{
+    width: 25%;
+    margin: 2%;
+    border: none;
+    border-top: solid 2px #fff;
+}
+.button2{
+    background-color: #fff;
+    width: fit-content;
+    text-align: center;
+    padding: 1% 5% 1% 5%;
+    margin-left: 20px;
+    color: #5d2122;
+    cursor: pointer;
+    margin-top: 5%;
+}
+.button2:hover{
+    transition: 0.5s;
+    border-radius: 20px;
+}

@@ -1,0 +1,43 @@
+.firstSectionDiv {
+  background-image: url("../images/background.jpg");
+  background-position: center;
+  background-size: 100% auto;
+}
+.firstSectionDiv p {
+  color: #58595b;
+  width: 80%;
+  margin: 1%;
+  line-height: 30px;
+  font-family: "Manrope", sans-serif;
+}
+.title {
+  padding: 6% 10% 0.6% 1%;
+  color: #58595b;
+  font-size: 1.8em;
+  text-align: right;
+  width: 100%;
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 5px;
+}
+.ruler {
+  width: 15%;
+  border: none;
+  border-top: solid 2px #999;
+}
+.blockChainDiv img{
+  width: 600px;
+}
+.blockChainDiv div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.blockChainDiv {
+  display: flex;
+  justify-content: space-around;
+}
+.blockChainDiv p {
+  text-align: right;
+  padding: 2% 10% 0.6% 1%;
+}

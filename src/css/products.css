@@ -1,0 +1,219 @@
+.productDiv div{
+    display: flex;
+}
+.mainModal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4%;
+}
+.childModal{
+    padding: 2%;
+    cursor: pointer;
+    display: inline;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+}
+.childModal:hover{
+    box-shadow: 3px 3px 20px #ddd;
+    transition: 0.8s;
+}
+.childModal p{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 2%;
+    color: #000;
+}
+.childModal img{
+    width: 200px;
+    height: 200px;
+}
+.shopHead{    
+    padding: 2%;
+    font-size: 1.2em;
+    color: #58595b;
+    text-align: center;
+    width: 100%;
+    font-family: "Manrope", sans-serif;
+    letter-spacing: 5px;
+}
+.heliumDiv{
+    display: flex;
+    align-items: center;
+}
+.heliumDiv div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heliumDiv img{
+    cursor: pointer;
+    margin: 1%;
+    width: 500px;
+    height: 350px;
+    margin: 50px;
+    border: solid 1px #ddd;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.heliumDiv img:hover{
+    transition: 0.5s;
+    box-shadow: 10px 10px 10px #ddd;
+}
+.outterBox{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.animateBox{
+    flex-direction: column;
+    box-shadow: 5px 5px ;
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    border-radius: 40px;
+    background: linear-gradient(145deg, #f0f0f0, #e8e8e8);
+    box-shadow:  19px 19px 48px #8d8d8d,
+                -19px -19px 48px #ffffff;
+}
+.animateBox h2{
+    background-color: #da5d64;
+    padding: 5% 20% 5% 20%;
+    border-top-left-radius: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    border-top-right-radius: 40px;
+    color: #fff;
+}
+.animateBox p{
+    margin: auto;
+    margin-bottom: -5%;
+    color: #3c3d3e;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.animateSpan{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 50%;
+    bottom: -20%;
+    transform: translateX(50%);
+}
+.animateSpan img{
+    background-color: rgb(199, 196, 196);
+    padding: 10px;
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    -webkit-animation:spin 0.4s linear infinite;
+    -moz-animation:spin 0.4s linear infinite;
+    animation:spin 0.4s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+.cloudHeading{
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+    padding: 2%;
+    color: rgb(127, 122, 122);
+}
+.cloudHeading h1{
+    font-size: 3em;
+    text-align: right;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.cloudHeading p{
+    width: 50%;
+    text-align: right;
+    padding-top: 2%;
+    color: rgb(4, 4, 65);
+    font-family: 'Josefin Sans', sans-serif;
+}
+.cloudHeading a{
+    width: 40%;
+    border-radius: 100px;
+    border: none;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 5%;
+    padding: 2%;
+    cursor: pointer;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #da5d64, #971d23);
+    box-shadow:  20px 20px 60px #ef878c,
+                 -20px -20px 60px #80383b;
+}
+.cloudHeading a:hover{
+    transition: 0.5s ease-in;
+    background: linear-gradient(145deg, #f7575f, #f5868b);
+    box-shadow:  20px 20px 60px #da5d64,
+                -20px -20px 60px #861c22;
+}
+.svgGraphic img{
+    width: 100%;
+    height: auto;
+}
+.svgGraphic{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.cloudSteps{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+.cloudSteps h2{
+    font-size: 2.3rem;
+    color: #3c3d3e;
+}
+.cloudSteps p{
+    color: #8d8d8d;
+}
+#steps{
+    text-align: left;
+    margin: -1%;
+}
+.stepsBox div{
+    margin-top: 5%;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.stepsBox div img{
+    width: 130px;
+    height: 130px;
+    cursor: pointer;
+}
+.stepsBox div p{
+    width: 60%;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.stepsBox div::after{
+    content: '';
+    width: 10%;
+    height: 4px;
+    border-radius: 10px;
+    margin-top: 2%;
+    background-color: #da5d64;
+}
+.stepsBox div img:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+}

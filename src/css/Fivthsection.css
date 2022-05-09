@@ -1,0 +1,39 @@
+.whyUsDiv{
+    border: solid 1px #ddd;
+    text-align: center;
+    padding: 4%;
+    border-radius: 10px;
+    width: 80%;
+    margin: 2% auto;
+    cursor: pointer;
+}
+.whyUsDiv:hover{
+    box-shadow: 5px 5px 10px #ddd;
+    transition: 0.5s;
+}
+.heading{
+    padding: 2%;
+    color: #58595b;
+    font-size: 2em;
+    text-align: center;
+    width: 100%;
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 5px;
+}
+.whyUsDiv img{
+    width: 100px;
+    height: 100px;
+}
+.whyUsDiv p{
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-align: justify;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #555;
+}
+.whyUsDiv h2{
+    font-size: xx-large;
+}
+.mainDiv{
+    display: flex;
+}

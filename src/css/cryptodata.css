@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+.cryptoDiv{
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+    z-index: 10000;
+    width: 100%;
+    color: #fff;
+}
+.cryptoDiv img{
+    width: 20px;
+    height: 20px;
+}
+.cryptoDiv h6{
+    text-transform: uppercase;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: 'Raleway', sans-serif;
+}
+.cryptoDiv h5{
+    margin: 0% 3% 0% 3%;
+    font-size: 0.8em;
+    display: block;
+    width: 100px;
+}
+.cryptoDiv p{
+    font-size: 0.8em;
+    font-weight: bold;
+}

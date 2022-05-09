@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');
+.headDiv{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f8f8f8;
+}
+.headDiv div p {
+  color: #555;
+  text-align: left;
+  position: relative;
+  top: -40px;
+}
+.arrow{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  top: -80px;
+}
+.arrow img{
+  width: 100px;
+  height: 70px;
+  animation: move 4s ease-in infinite;
+}
+#graphic_card{
+  width: 600px;
+  height: 350px;
+  animation: move 4s ease-in infinite;
+  cursor: pointer;
+} 
+@keyframes move {
+  0%{
+    transform: translateY(-10px);
+  }
+  50%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+.headDiv h1{
+  color: rgb(89, 89, 89);
+  font-size: 3em;
+  font-family: 'Cormorant Garamond', serif;
+  text-shadow: 5px 5px 10px #f2f2f2;
+  margin-bottom: 10%;
+}
+.button{
+  padding: 3% 8% 3% 8%;
+  color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background: linear-gradient(145deg, #da5d64, #971d23);
+  box-shadow:  20px 20px 60px #000000,
+                 -20px -20px 60px #966c6d;
+}
+.button:hover{
+    transition: 0.5s ease-in;
+    background: linear-gradient(145deg, #f7575f, #b33339);
+    box-shadow:  20px 20px 60px #624648,
+                -20px -20px 60px #2b1313;
+}
